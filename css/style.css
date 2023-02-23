@@ -13,6 +13,7 @@ button{
   background-color: unset;
   cursor: pointer;
 }
+/*UTILS*/
 .d-flex{
   display: flex;
 }
@@ -25,13 +26,16 @@ button{
 .t-green{
   color: #4BC800;
 }
+.f-13p{
+  font-size: 13px;
+}
 .f-11p{
-  font-size: 12px;
+  font-size: 11px;
 }
 .f-8p{
   font-size: 5;
 }
-.f-25p{
+.f-20p{
   font-size: 20px;
 }
 .px-15{
@@ -43,7 +47,6 @@ button{
 .block{
   display: block;
 }
-
 /*MENU TOP*/
 .menu-top{
   display: flex;
@@ -96,7 +99,6 @@ main{
   align-items: center;
   height: 70px;
   background-color: #222222;
-  border-top: 1px solid white;
   padding: 0 10px;
 }
 .menu-bottom nav ul li button{
