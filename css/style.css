@@ -79,8 +79,11 @@ main{
   margin: 0 auto;
 }
 .card{
-  min-width: 200px;
-  margin: 3px;  
+  width: 200px;
+  height: 150px;
+  margin: 3px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .image{
   position: relative;
@@ -89,7 +92,6 @@ main{
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: 5px;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 5px;
 }
@@ -97,6 +99,7 @@ main{
 .menu-bottom{
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   height: 70px;
   background-color: #222222;
   padding: 0 10px;
@@ -109,11 +112,11 @@ main{
 }
 .button-dx-bottom{
   height: 100%;
-  padding: 0 20px;
   background-color: #4A4A4A;
 }
 
 .button-dx-bottom button{
   color: red;
   align-items: center;
+  padding: 0 20px;
 }
